@@ -1,0 +1,72 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    background-color: #d2a564; /* Use your specific golden hue */
+    color: #fff;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url('assets/background-image.jpg') center/cover no-repeat;
+    filter: blur(3px); /* Apply a soft blur */
+  }
+  
+  .content {
+    position: absolute;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+  }
+  
+  .details p, .details a {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+  }
+  
+  .details .more-info {
+    text-decoration: underline;
+    color: #ffd700; /* Gold accent for links */
+  }
+  
+  .socials {
+    margin-top: 1rem;
+  }
+  
+  .socials a {
+    margin: 0 0.5rem;
+    display: inline-block;
+  }
+  
+  .socials img {
+    width: 24px;
+    height: 24px;
+    
+  }
+
+  /* background: url('assets/your-background-image.jpg') center/cover no-repeat; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/your-background-image.jpg'); */
+
+  
+  
